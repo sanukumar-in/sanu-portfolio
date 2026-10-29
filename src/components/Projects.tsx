@@ -64,7 +64,7 @@ export const Projects = () => {
                                 Website →
                             </a>
                             <a 
-                                href={project.liveUrl} 
+                                href={project.githubUrl} 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-sm font-medium underline underline-offset-4 hover:bg-black hover:text-white transition-all duration-300 rounded-lg text-lg hover:px-4 hover:py-2"
