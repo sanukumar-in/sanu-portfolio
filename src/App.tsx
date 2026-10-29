@@ -1,11 +1,13 @@
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (
     <div className="min-h-screen w-full">
       <Navbar />
       <Hero />
+      <Projects />
     </div>
   );
 }
