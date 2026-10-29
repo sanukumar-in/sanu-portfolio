@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 body {
-  background-color: #F4F1FF; /* The soft lavender color from the Meelo design */
-  color: #1A1A1A;
+  background-color: #ffffff;
+  color: #333333;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  padding: 0;
 }
