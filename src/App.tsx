@@ -3,6 +3,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import { Projects } from "./components/Projects";
+import { Contact } from './components/Contact';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,6 +18,7 @@ function App() {
             <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             <Hero />
             <Projects />
+            <Contact />
             <Footer />
         </main>
   );
